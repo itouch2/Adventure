@@ -138,19 +138,21 @@
 		<key>morphaLabelType</key>
 		<integer>3</integer>
 		<key>duration</key>
-		<integer>2</integer>
+		<integer>1</integer>
 	</dict>
 	<dict>
 		<key>type</key>
 		<string>cook</string>
 		<key>words</key>
-		<string>iOS@douyin</string>
+		<string>iOS@抖音</string>
 		<key>labelType</key>
 		<string>morpha</string>
 		<key>imageName</key>
-		<string>aweios@bytedance.com</string>
+		<string>douyin-iOS</string>
 		<key>travelType</key>
 		<string>bottom</string>
+		<key>offset</key>
+		<integer>-45</integer>
 		<key>duration</key>
 		<real>1.8</real>
 	</dict>
