@@ -39,8 +39,8 @@ class PieceView: UIView, PieceViewProtocol {
         normalLabel.snp.makeConstraints { (make) in
             make.top.equalTo(-120)
             make.bottom.equalToSuperview()
-            make.left.equalTo(70)
-            make.right.equalTo(-70)
+            make.left.equalTo(30)
+            make.right.equalTo(-30)
         }
     }
     

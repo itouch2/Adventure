@@ -148,7 +148,7 @@
 		<key>labelType</key>
 		<string>morpha</string>
 		<key>imageName</key>
-		<string>douyin-iOS</string>
+		<string>aweios@bytedance.com</string>
 		<key>travelType</key>
 		<string>bottom</string>
 		<key>duration</key>
@@ -222,7 +222,7 @@
 		<key>imageName</key>
 		<string></string>
 		<key>fontSize</key>
-		<integer>30</integer>
+		<integer>28</integer>
 		<key>duration</key>
 		<integer>3</integer>
 	</dict>
