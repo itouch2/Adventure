@@ -67,6 +67,9 @@ class PieceView: UIView, PieceViewProtocol {
         
         morphaLabel.text = piece?.words
         morphaLabel.label.font = morphaLabel.label.font.withSize((piece?.fontSize)!)
+        (morphaLabel.label as! LTMorphingLabel).morphingEffect = LTMorphingEffect.init(rawValue: (piece?.morphaLabelType.rawValue)!)!
+
+        print("%d", (morphaLabel.label as! LTMorphingLabel).morphingEffect)
         
         morphaLabel.gradienting()
         normalLabel.gradienting()

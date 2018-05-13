@@ -64,7 +64,7 @@ class Adventure: UIViewController {
     }
     
     func play() {
-        let path = Bundle.main.path(forResource: "On-Our-Way", ofType:"mp3")
+        let path = Bundle.main.path(forResource: "color-X", ofType:"mp3")
         guard let resource = path else {
             return
         }
